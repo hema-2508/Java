@@ -1,0 +1,121 @@
+/*SQL:
+DDL: Data definition Language.
+1) CREATE: 
+2) ALTER:
+3) DROP:
+4) Truncate: 
+
+/*Syntax for creating database
+CREATE DATABASE database_name;*/
+
+/*Syntax for creating table
+CREATE TABLE table_name(column_name datatype,
+column_name datatype, ......);*/
+
+/*DESC: Describe
+DESC airlines_details;*/
+
+/*TASK:1
+CREATE 2 tables with 6 columns.
+*/
+
+DDL:
+1) CREATE
+2) ALTER
+
+DESC airlines_ticket_details;
+
+SELECT * FROM table_name;
+
+SELECT : To fetch the data.
+* : All columns in a table.
+From: clause: From where the data is fetched.
+table_name;
+
+select * from airlines_ticket_details;
+
+ALTER: 
+1) Add new column to existing table.
+2) Drop column from existing table.
+3) Rename the existing column name.
+4) change the datatype of existing columns.
+
+/*Syntax for adding new column
+ALTER table table_name ADD COLUMN column_name datatype;*/
+
+ALTER TABLE airlines_ticket_details ADD COLUMN ticket_price bigint;
+
+ALTER TABLE airlines_ticket_details 
+ADD COLUMN arrival_time timestamp,
+ADD COLUMN departure_time timestamp;
+
+2) DROP:
+/*Syntax for droping column from existing table
+ALTER TABLE table_name DROP COLUMN column_name;*/
+ALTER TABLE airlines_ticket_details DROP COLUMN age;
+
+3) RENAME column name
+/*Syntax for renaming column name
+ALTER TABLE table_name RENAME COLUMN existing_column TO new_column_name;*/
+
+ALTER TABLE airlines_ticket_details RENAME COLUMN
+dest to destination;
+
+4) Change the datatype
+/*Syntax for changing the datatype
+ALTER TABLE table_name MODIFY COLUMN column_name datatype;*/
+desc airlines_ticket_details;
+ALTER TABLE airlines_ticket_details MODIFY column
+arrival_time varchar(30);
+
+
+
+ALTER TABLE table_name ADD COLUMN column_name datatype;
+ALTER TABLE table_name DROP COLUMN column_name;
+ALTER TABLE table_name RENAME COLUMN existing_column TO new_column_name;
+ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+
+3)DROP: 
+1) Database
+2) Table
+DROP database mar_3;
+DROP table table_name;
+drop table feb_17_details;
+
+CREATE TABLE house_rent_details(id int, house_type varchar(8),
+rent_price bigint, owner_name varchar(20), location varchar(20),
+sq_ft decimal(6,2), parking_available boolean, contact_no bigint);
+
+
+TASK: 2
+CREATE 5 TABLES WITH 5 COLUMNS.
+1) By using alter add 2 columns.
+2) drop 1 column.
+3) Rename 3 columns.
+4) change datatype for 3 columns.
+
+SELECT * FROM table_name;
+DDL
+CREATE DATABASE database_name;
+CREATE TABLE table_name(column_name datatype,
+column_name datatype, ......);
+DESC airlines_details;
+ALTER TABLE table_name ADD COLUMN column_name datatype;
+ALTER TABLE table_name DROP COLUMN column_name;
+ALTER TABLE table_name RENAME COLUMN existing_column TO new_column_name;
+ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+DROP DATABASE database_name;
+DROP TABLE table_name;
+TRUNCATE TABLE table_name;
+
+
+
+DML
+INSERT INTO table_name values(data1, data2, data3,....);
+INSERT INTO laptop_info(column_name1,column_name2,column_name3,...)
+values(data1, data2, data3,....);
+
+TASK:3
+CREATE 3 TABLES(hospital_info, country_info, state_info, scam_info)
+for each table 6 columns.
+INSERT 15 data for each table.

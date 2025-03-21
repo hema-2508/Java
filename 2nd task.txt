@@ -1,0 +1,429 @@
+public class BathingSoap {
+    public static void main(String[] args) {
+        // Initial values
+        byte soapRating = 8;
+        short soapsInBox = 100;
+        int soapPricePaise = 5000;
+        long yearlySales = 1000000000L;
+        float soapWeight = 125.5f;
+        double soapLength = 9.75;
+        char soapGrade = 'A';
+        boolean isAvailable = true;
+
+        // Added String data type
+        String soapBrand = "FreshGlow";
+
+        System.out.println("Initial Soap Details:");
+        System.out.println("Brand: " + soapBrand);
+        System.out.println("Rating: " + soapRating + "/10");
+        System.out.println("Soaps in a box: " + soapsInBox);
+        System.out.println("Price: " + (soapPricePaise / 100.0) + " rupees");
+        System.out.println("Total sales this year: " + yearlySales);
+        System.out.println("Weight: " + soapWeight + " grams");
+        System.out.println("Length: " + soapLength + " cm");
+        System.out.println("Grade: " + soapGrade);
+        System.out.println("Is available: " + isAvailable);
+
+        // Re-initialize variables with new values
+        soapRating = 10;
+        soapsInBox = 200;
+        soapPricePaise = 7500;
+        yearlySales = 2000000000L;
+        soapWeight = 150.0f;
+        soapLength = 10.5;
+        soapGrade = 'B';
+        isAvailable = false;
+        soapBrand = "GlowPure";
+
+        System.out.println("\nUpdated Soap Details:");
+        System.out.println("Brand: " + soapBrand);
+        System.out.println("Rating: " + soapRating + "/10");
+        System.out.println("Soaps in a box: " + soapsInBox);
+        System.out.println("Price: " + (soapPricePaise / 100.0) + " rupees");
+        System.out.println("Total sales this year: " + yearlySales);
+        System.out.println("Weight: " + soapWeight + " grams");
+        System.out.println("Length: " + soapLength + " cm");
+        System.out.println("Grade: " + soapGrade);
+        System.out.println("Is available: " + isAvailable);
+    }
+}
+
+watch
+
+public class WatchDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte starRating = 4;
+        short stockQuantity = 320;
+        int watchPrice = 2999;
+        long yearlySales = 500000L;
+        float watchWeight = 150.5f;
+        double dialDiameter = 4.25;
+        char sizeCode = 'M';
+        boolean isWaterproof = true;
+        
+        // Added String data type for brand name
+        String watchBrand = "TimeMaster";
+
+        System.out.println("Initial Watch Details:");
+        System.out.println("Brand: " + watchBrand);
+        System.out.println("Star Rating: " + starRating + " out of 5 stars");
+        System.out.println("Available Stock: " + stockQuantity);
+        System.out.println("Price: Rs. " + watchPrice);
+        System.out.println("Total Sales This Year: " + yearlySales);
+        System.out.println("Weight: " + watchWeight + " grams");
+        System.out.println("Dial Diameter: " + dialDiameter + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Waterproof: " + isWaterproof);
+
+        // Re-initializing variables with new values
+        starRating = 5;
+        stockQuantity = 150;
+        watchPrice = 3999;
+        yearlySales = 750000L;
+        watchWeight = 135.75f;
+        dialDiameter = 5.5;
+        sizeCode = 'L';
+        isWaterproof = false;
+        watchBrand = "EliteChrono";
+
+        System.out.println("\nUpdated Watch Details:");
+        System.out.println("Brand: " + watchBrand);
+        System.out.println("Star Rating: " + starRating + " out of 5 stars");
+        System.out.println("Available Stock: " + stockQuantity);
+        System.out.println("Price: Rs. " + watchPrice);
+        System.out.println("Total Sales This Year: " + yearlySales);
+        System.out.println("Weight: " + watchWeight + " grams");
+        System.out.println("Dial Diameter: " + dialDiameter + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Waterproof: " + isWaterproof);
+    }
+}
+
+napkins
+public class NapkinDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte softnessLevel = 9;
+        short napkinsInPacket = 100;
+        int priceInPaise = 2500;
+        long yearlySales = 2000000L;
+        float napkinWeight = 15.5f;
+        double napkinLength = 30.75;
+        char sizeCode = 'L';
+        boolean isBiodegradable = true;
+
+        // Added String data type for napkin brand
+        String napkinBrand = "SoftTouch";
+
+        // Print initial details
+        System.out.println("Initial Napkin Details:");
+        System.out.println("Brand: " + napkinBrand);
+        System.out.println("Softness Level: " + softnessLevel + "/10");
+        System.out.println("Napkins in a Packet: " + napkinsInPacket);
+        System.out.println("Price: " + (priceInPaise / 100.0) + " Rupees");
+        System.out.println("Total Napkins Sold This Year: " + yearlySales);
+        System.out.println("Weight of One Napkin: " + napkinWeight + " grams");
+        System.out.println("Length of One Napkin: " + napkinLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is Biodegradable: " + isBiodegradable);
+
+        // Re-initialize variables with new values
+        softnessLevel = 7;
+        napkinsInPacket = 80;
+        priceInPaise = 3000;
+        yearlySales = 2500000L;
+        napkinWeight = 12.75f;
+        napkinLength = 28.50;
+        sizeCode = 'M';
+        isBiodegradable = false;
+        napkinBrand = "EcoWipe";
+
+        // Print updated details
+        System.out.println("\nUpdated Napkin Details:");
+        System.out.println("Brand: " + napkinBrand);
+        System.out.println("Softness Level: " + softnessLevel + "/10");
+        System.out.println("Napkins in a Packet: " + napkinsInPacket);
+        System.out.println("Price: " + (priceInPaise / 100.0) + " Rupees");
+        System.out.println("Total Napkins Sold This Year: " + yearlySales);
+        System.out.println("Weight of One Napkin: " + napkinWeight + " grams");
+        System.out.println("Length of One Napkin: " + napkinLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is Biodegradable: " + isBiodegradable);
+    }
+}
+
+pillow
+
+public class PillowDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte softnessLevel = 8;
+        short pillowsInPacket = 50;
+        int pillowPrice = 999;
+        long yearlySales = 100000L;
+        float pillowWeight = 500.5f;
+        double pillowLength = 60.25;
+        char sizeCode = 'L';
+        boolean isWashable = true;
+
+        // Added String data type for pillow brand
+        String pillowBrand = "ComfyCloud";
+
+        // Print initial pillow details
+        System.out.println("Initial Pillow Details:");
+        System.out.println("Brand: " + pillowBrand);
+        System.out.println("Softness Level: " + softnessLevel + "/10");
+        System.out.println("Pillows in a Packet: " + pillowsInPacket);
+        System.out.println("Price: Rs. " + pillowPrice);
+        System.out.println("Total Pillows Sold This Year: " + yearlySales);
+        System.out.println("Weight of One Pillow: " + pillowWeight + " grams");
+        System.out.println("Length of One Pillow: " + pillowLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is it Washable? " + isWashable);
+
+        // Re-initialize variables with new values
+        softnessLevel = 10;
+        pillowsInPacket = 30;
+        pillowPrice = 1499;
+        yearlySales = 200000L;
+        pillowWeight = 450.0f;
+        pillowLength = 55.5;
+        sizeCode = 'M';
+        isWashable = false;
+        pillowBrand = "DreamRest";
+
+        // Print updated pillow details
+        System.out.println("\nUpdated Pillow Details:");
+        System.out.println("Brand: " + pillowBrand);
+        System.out.println("Softness Level: " + softnessLevel + "/10");
+        System.out.println("Pillows in a Packet: " + pillowsInPacket);
+        System.out.println("Price: Rs. " + pillowPrice);
+        System.out.println("Total Pillows Sold This Year: " + yearlySales);
+        System.out.println("Weight of One Pillow: " + pillowWeight + " grams");
+        System.out.println("Length of One Pillow: " + pillowLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is it Washable? " + isWashable);
+    }
+}
+
+
+
+ 
+bed details
+
+public class BedDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte comfortLevel = 9;
+        short bedsInStore = 150;
+        int bedPrice = 25000;
+        long yearlyBedSales = 50000L;
+        float bedWeight = 75.5f;
+        double bedLength = 200.75;
+        char sizeCode = 'K';
+        boolean isFoldable = true;
+
+        // Added String data type for bed brand
+        String bedBrand = "SleepWell";
+
+        // Print initial bed details
+        System.out.println("Initial Bed Details:");
+        System.out.println("Brand: " + bedBrand);
+        System.out.println("Comfort Level: " + comfortLevel + "/10");
+        System.out.println("Beds in Store: " + bedsInStore);
+        System.out.println("Price of One Bed: Rs. " + bedPrice);
+        System.out.println("Beds Sold This Year: " + yearlyBedSales);
+        System.out.println("Weight of the Bed: " + bedWeight + " kg");
+        System.out.println("Length of the Bed: " + bedLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is Foldable: " + isFoldable);
+
+        // Re-initialize variables with new values
+        comfortLevel = 7;
+        bedsInStore = 80;
+        bedPrice = 30000;
+        yearlyBedSales = 75000L;
+        bedWeight = 85.0f;
+        bedLength = 210.5;
+        sizeCode = 'Q';  // Q for Queen size
+        isFoldable = false;
+        bedBrand = "DreamRest";
+
+        // Print updated bed details
+        System.out.println("\nUpdated Bed Details:");
+        System.out.println("Brand: " + bedBrand);
+        System.out.println("Comfort Level: " + comfortLevel + "/10");
+        System.out.println("Beds in Store: " + bedsInStore);
+        System.out.println("Price of One Bed: Rs. " + bedPrice);
+        System.out.println("Beds Sold This Year: " + yearlyBedSales);
+        System.out.println("Weight of the Bed: " + bedWeight + " kg");
+        System.out.println("Length of the Bed: " + bedLength + " cm");
+        System.out.println("Size Code: " + sizeCode);
+        System.out.println("Is Foldable: " + isFoldable);
+    }
+}
+
+Ring
+public class RingDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte shineLevel = 10;
+        short ringsInShop = 250;
+        int ringPrice = 15000;
+        long yearlyRingSales = 500000L;
+        float ringWeight = 7.5f;
+        double ringDiameter = 18.75;
+        char sizeCode = 'M';
+        boolean isGold = true;
+
+        // Added String data type for ring brand
+        String ringBrand = "GoldShine";
+
+        // Print initial ring details
+        System.out.println("Initial Ring Details:");
+        System.out.println("Brand: " + ringBrand);
+        System.out.println("Shine Level: " + shineLevel + "/10");
+        System.out.println("Rings in Shop: " + ringsInShop);
+        System.out.println("Price of One Ring: Rs. " + ringPrice);
+        System.out.println("Rings Sold This Year: " + yearlyRingSales);
+        System.out.println("Weight of the Ring: " + ringWeight + " grams");
+        System.out.println("Diameter of the Ring: " + ringDiameter + " mm");
+        System.out.println("Ring Size Code: " + sizeCode);
+        System.out.println("Is it made of Gold? " + isGold);
+
+        // Re-initialize variables with new values
+        shineLevel = 8;
+        ringsInShop = 150;
+        ringPrice = 12000;
+        yearlyRingSales = 600000L;
+        ringWeight = 6.25f;
+        ringDiameter = 17.50;
+        sizeCode = 'S'; // Small size
+        isGold = false;
+        ringBrand = "SilverGleam";
+
+        // Print updated ring details
+        System.out.println("\nUpdated Ring Details:");
+        System.out.println("Brand: " + ringBrand);
+        System.out.println("Shine Level: " + shineLevel + "/10");
+        System.out.println("Rings in Shop: " + ringsInShop);
+        System.out.println("Price of One Ring: Rs. " + ringPrice);
+        System.out.println("Rings Sold This Year: " + yearlyRingSales);
+        System.out.println("Weight of the Ring: " + ringWeight + " grams");
+        System.out.println("Diameter of the Ring: " + ringDiameter + " mm");
+        System.out.println("Ring Size Code: " + sizeCode);
+        System.out.println("Is it made of Gold? " + isGold);
+    }
+}
+
+
+Bag
+
+public class BagDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte numberOfZippers = 3;
+        short bagsInStore = 250;
+        int bagPrice = 1500;
+        long yearlyBagSales = 50000L;
+        float bagWeight = 1.25f;
+        double bagLength = 45.75;
+        char sizeCode = 'M';
+        boolean isWaterproof = true;
+
+        // Added String data type for bag brand
+        String bagBrand = "TravelPro";
+
+        // Print initial bag details
+        System.out.println("Initial Bag Details:");
+        System.out.println("Brand: " + bagBrand);
+        System.out.println("Number of Zippers: " + numberOfZippers);
+        System.out.println("Bags in Store: " + bagsInStore);
+        System.out.println("Price of One Bag: Rs. " + bagPrice);
+        System.out.println("Bags Sold This Year: " + yearlyBagSales);
+        System.out.println("Weight of the Bag: " + bagWeight + " kg");
+        System.out.println("Length of the Bag: " + bagLength + " cm");
+        System.out.println("Bag Size Code: " + sizeCode);
+        System.out.println("Is it Waterproof? " + isWaterproof);
+
+        // Re-initialize variables with new values
+        numberOfZippers = 5;
+        bagsInStore = 100;
+        bagPrice = 2000;
+        yearlyBagSales = 75000L;
+        bagWeight = 1.75f;
+        bagLength = 50.0;
+        sizeCode = 'L'; // Large size
+        isWaterproof = false;
+        bagBrand = "UrbanGear";
+
+        // Print updated bag details
+        System.out.println("\nUpdated Bag Details:");
+        System.out.println("Brand: " + bagBrand);
+        System.out.println("Number of Zippers: " + numberOfZippers);
+        System.out.println("Bags in Store: " + bagsInStore);
+        System.out.println("Price of One Bag: Rs. " + bagPrice);
+        System.out.println("Bags Sold This Year: " + yearlyBagSales);
+        System.out.println("Weight of the Bag: " + bagWeight + " kg");
+        System.out.println("Length of the Bag: " + bagLength + " cm");
+        System.out.println("Bag Size Code: " + sizeCode);
+        System.out.println("Is it Waterproof? " + isWaterproof);
+    }
+}
+
+
+
+hat
+
+public class HatDetails {
+    public static void main(String[] args) {
+        // Initial values
+        byte styleRating = 9;
+        short hatsInStore = 120;
+        int hatPrice = 500;
+        long yearlyHatSales = 100000L;
+        float hatWeight = 150.5f;
+        double hatDiameter = 30.75;
+        char sizeCode = 'S';
+        boolean isWashable = true;
+
+        // Added String data type for hat brand
+        String hatBrand = "CoolCap";
+
+        // Print initial hat details
+        System.out.println("Initial Hat Details:");
+        System.out.println("Brand: " + hatBrand);
+        System.out.println("Style Rating: " + styleRating + "/10");
+        System.out.println("Hats in Store: " + hatsInStore);
+        System.out.println("Price of One Hat: Rs. " + hatPrice);
+        System.out.println("Hats Sold This Year: " + yearlyHatSales);
+        System.out.println("Weight of the Hat: " + hatWeight + " grams");
+        System.out.println("Diameter of the Hat: " + hatDiameter + " cm");
+        System.out.println("Hat Size Code: " + sizeCode);
+        System.out.println("Is it Washable? " + isWashable);
+
+        // Re-initialize variables with new values
+        styleRating = 7;
+        hatsInStore = 80;
+        hatPrice = 750;
+        yearlyHatSales = 150000L;
+        hatWeight = 130.25f;
+        hatDiameter = 32.5;
+        sizeCode = 'M'; // Medium size
+        isWashable = false;
+        hatBrand = "SunShield";
+
+        // Print updated hat details
+        System.out.println("\nUpdated Hat Details:");
+        System.out.println("Brand: " + hatBrand);
+        System.out.println("Style Rating: " + styleRating + "/10");
+        System.out.println("Hats in Store: " + hatsInStore);
+        System.out.println("Price of One Hat: Rs. " + hatPrice);
+        System.out.println("Hats Sold This Year: " + yearlyHatSales);
+        System.out.println("Weight of the Hat: " + hatWeight + " grams");
+        System.out.println("Diameter of the Hat: " + hatDiameter + " cm");
+        System.out.println("Hat Size Code: " + sizeCode);
+        System.out.println("Is it Washable? " + isWashable);
+    }
+}
