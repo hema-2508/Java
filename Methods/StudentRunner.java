@@ -1,0 +1,55 @@
+class StudentRunner{
+	public static void main(String[] values){
+		String name="Hema";
+		Student.checkNames(name);
+		name="Nagesh";
+		Student.checkNames(name);
+		name="Sonal";
+		Student.checkNames(name);
+		name="Sahil";
+		Student.checkNames(name);
+		name="Krishna";
+		Student.checkNames(name);
+		name="Nikki";
+		Student.checkNames(name);
+		name="padma";
+		Student.checkNames(name);
+		name="karthik";
+		Student.checkNames(name);
+		name="dhanya";
+		Student.checkNames(name);
+		name="kamal";
+		Student.checkNames(name);
+		name="Rohit";
+		Student.checkNames(name);
+		name="vijay";
+		Student.checkNames(name);
+		name="Pasta";
+		Student.checkNames(name);
+		name="adarsh";
+		Student.checkNames(name);
+		name="amruth";
+		Student.checkNames(name);
+		name="pruyhvi";
+		Student.checkNames(name);
+		name="maha";
+		Student.checkNames(name);
+		name="syeda";
+		Student.checkNames(name);
+		name="swathi";
+		Student.checkNames(name);
+		name="dharan";
+		Student.checkNames(name);
+		name="ramya";
+		Student.checkNames(name);
+		name="chirag";
+		Student.checkNames(name);
+		name="charan";
+		Student.checkNames(name);
+		name="akash";
+		Student.checkNames(name);
+		name="nihal";
+		Student.checkNames(name);
+		//String name="Nagesh";
+	}
+}
