@@ -1,0 +1,65 @@
+class Chocolate{
+	String chocolateName;
+	String brand;
+	double quantity;
+	double ratings;
+	int cost;
+	String flavour;
+	String type;
+	double sugarContent;
+	double calories;
+	double nutrients;
+	long annualSales;
+	long annualIncome;
+	String originPlace;
+	int originYear;
+	String founder;
+	long custSprtNumber;
+	String custSprtMail;
+	String branch;
+	String color;
+	boolean addedFruits;
+	public Chocolate(String chocolateName,String brand,double quantity,double ratings,int cost,String flavour,String type,double sugarContent,double calories,double nutrients,long annualSales,long annualIncome,String originPlace,int originYear,String founder,long custSprtNumber,String custSprtMail,String branch,String color,boolean addedFruits){
+	this.chocolateName= chocolateName;
+	this.brand=brand;
+	this.quantity=quantity;
+	this.ratings=ratings;
+	this.cost=cost;
+	this.flavour=flavour;
+	this.type=type;
+	this.sugarContent=sugarContent;
+	this.calories=calories;
+	this.nutrients=nutrients;
+	this.annualSales=annualSales;
+	this.annualIncome=annualIncome;
+	this.originPlace=originPlace;
+	this.originYear=originYear;
+	this.founder=founder;
+	this.custSprtNumber=custSprtNumber;
+	this.custSprtMail=custSprtMail;
+	this.branch=branch;
+	this.color=color;
+	this.addedFruits=addedFruits;
+	System.out.println("Chocolate Name: " + chocolateName);
+	System.out.println("Brand: " + brand);
+	System.out.println("Quantity: " + quantity + "g");
+	System.out.println("Ratings: " + ratings);
+	System.out.println("Cost: ₹" + cost);
+	System.out.println("Flavour: " + flavour);
+	System.out.println("Type of Chocolate: " + type);
+	System.out.println("Sugar Content: " + sugarContent + "g");
+	System.out.println("Calories: " + calories);
+	System.out.println("Nutrients: " + nutrients);
+	System.out.println("Annual Sales: " + annualSales);
+	System.out.println("Annual Income: ₹" + annualIncome);
+	System.out.println("Origin Place: " + originPlace);
+	System.out.println("Origin Year: " + originYear);
+	System.out.println("Founder: " + founder);
+	System.out.println("Customer Support Number: " + custSprtNumber);
+	System.out.println("Customer Support Email: " + custSprtMail);
+	System.out.println("Branch: " + branch);
+	System.out.println("Color: " + color);
+	System.out.println("Did they add dry fruits? " + addedFruits);
+	}
+		
+}
